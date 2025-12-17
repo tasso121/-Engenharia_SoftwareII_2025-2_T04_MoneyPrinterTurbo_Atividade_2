@@ -1,0 +1,31 @@
+**Análise do Fluxo de Trabalho do Repositório Git**
+
+**1. Modelo de Fluxo de Trabalho**
+
+O modelo de fluxo de trabalho utilizado no repositório Git é o **GitHub Flow**. Isso é evidenciado pelo seguinte:
+
+*   Existem branches ativas no repo original, como `dev` e `main`, o que indica que o projeto utiliza uma abordagem de desenvolvimento contínuo.
+*   As tags de release são frequentes e estão sendo utilizadas para marcar pontos importantes no ciclo de vida do projeto, como a versão 1.2.6.
+*   Os commits estão sendo feitos regularmente e estão sendo integrados em branches ativas, o que indica uma abordagem de desenvolvimento contínuo.
+
+**2. Estratégia de Release**
+
+A estratégia de release utilizada no projeto é a **feature-based**, ou seja, as novas funcionalidades são desenvolvidas em branches separados e, posteriormente, são integradas na branch principal (`main`) após a aprovação.
+
+Isso é evidenciado pelo seguinte:
+
+*   As tags de release estão sendo utilizadas para marcar pontos importantes no ciclo de vida do projeto, como a versão 1.2.6.
+*   As pull requests estão sendo feitas regularmente e estão sendo aprovadas, o que indica que as novas funcionalidades estão sendo desenvolvidas e integradas corretamente.
+
+**3. Padrão de Versionamento**
+
+O padrão de versionamento utilizado no projeto é o **Semantic Versioning**, que é uma abordagem de versionamento que utiliza números de versão semânticos para descrever as mudanças feitas no projeto.
+
+Isso é evidenciado pelo seguinte:
+
+*   As tags de release estão sendo utilizadas para marcar pontos importantes no ciclo de vida do projeto, como a versão 1.2.6.
+*   As versões de release estão sendo incrementadas regularmente, o que indica que o projeto está seguindo um padrão de versionamento semântico.
+
+**Conclusão**
+
+O fluxo de trabalho do repositório Git é o GitHub Flow, que é uma abordagem de desenvolvimento contínuo que utiliza branches ativas e pull requests para integrar as novas funcionalidades. A estratégia de release utilizada é feature-based, e o padrão de versionamento é o Semantic Versioning. Isso indica que o projeto está seguindo uma abordagem de desenvolvimento eficiente e escalável.
